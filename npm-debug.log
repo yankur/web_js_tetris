@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', '-g', 'npx', 'serve', '.' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData npx
+8 silly fetchPackageMetaData serve
+9 silly fetchPackageMetaData .
+10 silly fetchNamedPackageData npx
+11 silly mapToRegistry name npx
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/npx
+15 silly fetchNamedPackageData serve
+16 silly mapToRegistry name serve
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/serve
+20 verbose request uri https://registry.npmjs.org/npx
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 8:11:39 PM
+23 verbose request id f6300781ba6114ff
+24 http request GET https://registry.npmjs.org/npx
+25 verbose request uri https://registry.npmjs.org/serve
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 8:11:39 PM
+28 http request GET https://registry.npmjs.org/serve
+29 silly fetchOtherPackageData .
+30 silly cache add args [ '.', null ]
+31 verbose cache add spec .
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: '.',
+32 silly cache add   scope: null,
+32 silly cache add   name: null,
+32 silly cache add   rawSpec: '.',
+32 silly cache add   spec: '/home/kurlyana/UCU/SEM4/WEB/lab4_js_tetris',
+32 silly cache add   type: 'local' }
+33 error addLocal Could not install /home/kurlyana/UCU/SEM4/WEB/lab4_js_tetris
+34 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
+34 silly fetchPackageMetaData  error for . { Error: EISDIR: illegal operation on a directory, read errno: -21, code: 'EISDIR', syscall: 'read' }
+35 http 200 https://registry.npmjs.org/serve
+36 verbose headers { date: 'Sun, 22 Mar 2020 18:11:39 GMT',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'transfer-encoding': 'chunked',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'set-cookie':
+36 verbose headers    [ '__cfduid=d6f31eef372a4300b5062d019306b6d2a1584900699; expires=Tue, 21-Apr-20 18:11:39 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+36 verbose headers   'cf-ray': '5781e05d2a7e3268-KBP',
+36 verbose headers   age: '3076',
+36 verbose headers   'cache-control': 'public, max-age=300',
+36 verbose headers   etag: 'W/"21df0a0d6a09dae117307eb05dae98ae"',
+36 verbose headers   'last-modified': 'Fri, 20 Mar 2020 19:16:33 GMT',
+36 verbose headers   vary: 'accept-encoding, accept',
+36 verbose headers   'cf-cache-status': 'HIT',
+36 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+36 verbose headers   server: 'cloudflare',
+36 verbose headers   'content-encoding': 'gzip' }
+37 silly get cb [ 200,
+37 silly get   { date: 'Sun, 22 Mar 2020 18:11:39 GMT',
+37 silly get     'content-type': 'application/json',
+37 silly get     'transfer-encoding': 'chunked',
+37 silly get     connection: 'keep-alive',
+37 silly get     'set-cookie':
+37 silly get      [ '__cfduid=d6f31eef372a4300b5062d019306b6d2a1584900699; expires=Tue, 21-Apr-20 18:11:39 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+37 silly get     'cf-ray': '5781e05d2a7e3268-KBP',
+37 silly get     age: '3076',
+37 silly get     'cache-control': 'public, max-age=300',
+37 silly get     etag: 'W/"21df0a0d6a09dae117307eb05dae98ae"',
+37 silly get     'last-modified': 'Fri, 20 Mar 2020 19:16:33 GMT',
+37 silly get     vary: 'accept-encoding, accept',
+37 silly get     'cf-cache-status': 'HIT',
+37 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 silly get     server: 'cloudflare',
+37 silly get     'content-encoding': 'gzip' } ]
+38 verbose get saving serve to /home/kurlyana/.npm/registry.npmjs.org/serve/.cache.json
+39 http 200 https://registry.npmjs.org/npx
+40 verbose headers { date: 'Sun, 22 Mar 2020 18:11:40 GMT',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'transfer-encoding': 'chunked',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'set-cookie':
+40 verbose headers    [ '__cfduid=d80cc58ac13f4a3efbea28123b9f9a3961584900699; expires=Tue, 21-Apr-20 18:11:39 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+40 verbose headers   'cf-ray': '5781e05d1a52351f-KBP',
+40 verbose headers   'cache-control': 'public, max-age=300',
+40 verbose headers   etag: 'W/"0866892d83c5cfbed68b343b1bdd0a52"',
+40 verbose headers   'last-modified': 'Thu, 19 Mar 2020 23:59:50 GMT',
+40 verbose headers   vary: 'accept-encoding, accept',
+40 verbose headers   'cf-cache-status': 'EXPIRED',
+40 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+40 verbose headers   server: 'cloudflare',
+40 verbose headers   'content-encoding': 'gzip' }
+41 silly get cb [ 200,
+41 silly get   { date: 'Sun, 22 Mar 2020 18:11:40 GMT',
+41 silly get     'content-type': 'application/json',
+41 silly get     'transfer-encoding': 'chunked',
+41 silly get     connection: 'keep-alive',
+41 silly get     'set-cookie':
+41 silly get      [ '__cfduid=d80cc58ac13f4a3efbea28123b9f9a3961584900699; expires=Tue, 21-Apr-20 18:11:39 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+41 silly get     'cf-ray': '5781e05d1a52351f-KBP',
+41 silly get     'cache-control': 'public, max-age=300',
+41 silly get     etag: 'W/"0866892d83c5cfbed68b343b1bdd0a52"',
+41 silly get     'last-modified': 'Thu, 19 Mar 2020 23:59:50 GMT',
+41 silly get     vary: 'accept-encoding, accept',
+41 silly get     'cf-cache-status': 'EXPIRED',
+41 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+41 silly get     server: 'cloudflare',
+41 silly get     'content-encoding': 'gzip' } ]
+42 verbose get saving npx to /home/kurlyana/.npm/registry.npmjs.org/npx/.cache.json
+43 silly rollbackFailedOptional Starting
+44 silly rollbackFailedOptional Finishing
+45 silly runTopLevelLifecycles Starting
+46 silly runTopLevelLifecycles Finishing
+47 silly install printInstalled
+48 verbose stack Error: EISDIR: illegal operation on a directory, read
+49 verbose cwd /home/kurlyana/UCU/SEM4/WEB/lab4_js_tetris
+50 error Linux 5.3.0-40-generic
+51 error argv "/usr/bin/node" "/usr/bin/npm" "i" "-g" "npx" "serve" "."
+52 error node v8.10.0
+53 error npm  v3.5.2
+54 error code EISDIR
+55 error errno -21
+56 error syscall read
+57 error eisdir EISDIR: illegal operation on a directory, read
+58 error eisdir This is most likely not a problem with npm itself
+58 error eisdir and is related to npm not being able to find a package.json in
+58 error eisdir a package you are trying to install.
+59 verbose exit [ -21, true ]
